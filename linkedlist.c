@@ -34,7 +34,7 @@ int main()
   };
   struct node *START=NULL;
   struct node *createNode(){
-  struct node *n;
+  struct ptr->next!=NULLnode *n;
   n=(struct node*)malloc(sizeof(struct node));
   return(n);
 
