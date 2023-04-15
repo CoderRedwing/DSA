@@ -31,9 +31,29 @@ int main(){
 
 
 }*/
+/*#include<iostream>
+using namespace std;
+int main(){
+    int n,fact=1;
+    cin>>n;
+    while (n>0)
+    {
+        fact = fact*n;
+        n--;
+    }
+    
+    cout<<fact<<endl;
+}*/
 #include<iostream>
 using namespace std;
 int main(){
+    int n,r,rev=0;
     cin>>n;
-    
+    while (n>0)
+    {
+        rev=(rev*10)+n%10;
+        n=n/10;
+        
+    }
+    cout<<rev<<endl;
 }
